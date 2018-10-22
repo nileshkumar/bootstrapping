@@ -15,7 +15,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
-  <nav class="navbar navbar-dark bg-dark navbar-expand-md" role="navigation">
+  <div class=""><nav class="navbar navbar-dark bg-dark navbar-expand-md" role="navigation">
     <div class="container">
       <a class="navbar-brand" href="/">Personal Site</a>
 
@@ -52,11 +52,40 @@
   </nav>
 
   <main class="container mt-3">
-    <h1>Welcome to my personal website!</h1>
-    <p class="lead">I am web developer, designer, and just a good person.</p>
+    <div class="row">
+      <article class="col-md-8">
+        <h1>Welcome to my personal website!</h1>
+        <p class="lead">I am web developer, designer, and just a good person.</p>
+
+        <div class="row">
+          <blockquote class="blockquote col-md">
+            <p class="mb-0">He is great dev.</p>
+            <footer class="blockquote-footer"><cite title="My Mom">My Mom</cite></footer>
+          </blockquote>
+
+          <blockquote class="blockquote col-md">
+            <p class="mb-0">Awesome person.</p>
+            <footer class="blockquote-footer"><cite title="My friend">My friend</cite></footer>
+          </blockquote>
+
+          <blockquote class="blockquote col-md">
+            <p class="mb-0">Who's that?...</p>
+            <footer class="blockquote-footer"><cite title="A stranger">A stranger</cite></footer>
+          </blockquote>
+        </div>
+      </article>
+
+      <aside class="col-md-4">
+        <h3>Recent Posts</h3>
+        <ul>
+          <li><a href="#">Post 1</a></li>
+          <li><a href="#">Post 1</a></li>
+        </ul>
+      </aside>        
+    </div>
   </main>
 
-  <footer class="footer">
+  <footer class="footer mt-5">
     <div class="container">
       <span class="text-muted">&copy; 2018 My Personal Site LLC.</span>
     </div>
